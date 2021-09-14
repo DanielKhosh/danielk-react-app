@@ -1,10 +1,10 @@
 .main_continer{
-    max-width: 375px;
+    max-width: 365px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    background-color: #F3E4E1;
 }
 h1{
     text-align: center;

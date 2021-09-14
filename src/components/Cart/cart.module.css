@@ -12,3 +12,7 @@
     border-radius: 90px;
     min-height: 70px;
 }
+.main_container{
+    background-color: #F3E4E1;
+    min-height: 700px;
+}

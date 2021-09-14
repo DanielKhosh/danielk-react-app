@@ -6,7 +6,7 @@ import Navbar from '../Navbar/Navbar';
 
 const Products = ({ products }) => {
   return (
-    <div >
+    <div className={styles.container}>
       <Navbar/>
       <h1 className={styles.meny}>Meny</h1>
       {products.map((product) => (

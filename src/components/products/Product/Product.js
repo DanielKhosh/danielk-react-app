@@ -18,8 +18,8 @@ const Product = ({ product, addToCart }) => {
         <p className={styles.item_days}>{product.days}</p>
       </div>
 
-        <h3 className={styles.item_price}> {product.price}kr</h3>
-
+      <h3 className={styles.item_price}> {product.price}kr</h3>
+      
     </div>
   );
 };

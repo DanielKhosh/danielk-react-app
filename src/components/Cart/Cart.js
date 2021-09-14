@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Navbar from '../Navbar/Navbar';
 import CartItem from "./CartItem/CartItem";
-import styles from './cart.module.css'
+import styles from './cart.module.css';
 
 const Cart = ({ cart }) => {
 
@@ -26,7 +26,7 @@ const Cart = ({ cart }) => {
   }, [cart, totalPrice, totalItems, setTotalPrice, setTotalItems]);
 
   return (
-    <div>
+    <div className={styles.main_container}>
       <Navbar/>
       <h1>din beställning</h1>
       <div>
@@ -47,6 +47,7 @@ const Cart = ({ cart }) => {
     </div>
   );
 };
+
 
 const mapStateToProps = (state) => {
   return {
