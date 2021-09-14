@@ -8,6 +8,7 @@ import {
   removeFromCart,
 } from "../../../redux/shopping/actions";
 
+
 const CartItem = ({ item, adjustQty, removeFromCart }) => {
   const [input, setInput] = useState(item.qty);
 

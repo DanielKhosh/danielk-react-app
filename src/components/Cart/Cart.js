@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar';
 import CartItem from "./CartItem/CartItem";
 import styles from './cart.module.css';
 
+
 const Cart = ({ cart }) => {
 
   const [totalPrice, setTotalPrice] = useState(0);
@@ -16,9 +17,10 @@ const Cart = ({ cart }) => {
     let price = 0;
 
     cart.forEach((item) => {
-
+      
       items += item.qty;
       price += item.qty * item.price;
+
     });
 
     setTotalItems(items);
@@ -43,7 +45,6 @@ const Cart = ({ cart }) => {
           <h1>Take my money!</h1>
         </Link>
       </div>
-
     </div>
   );
 };
