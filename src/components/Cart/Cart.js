@@ -39,7 +39,7 @@ const Cart = ({ cart }) => {
 
       <div className={styles.shop_container}>
         <div>
-          <span> <h2>TOTAL: {totalPrice} KR </h2></span>
+          <span> <h2>TOTAL.............{totalPrice} KR </h2></span>
         </div>
         <Link to="orderstatus" style={{ textDecoration: 'none' }}>
           <h1>Take my money!</h1>

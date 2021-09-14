@@ -5,6 +5,11 @@
 
 }
 
+body {
+  font-family: PT Serif;
+  font-style: normal;
+}
+
 a{
   text-decoration: none;
 }

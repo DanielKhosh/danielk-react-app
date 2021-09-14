@@ -6,12 +6,12 @@ function Orderstatus (eta){
 
     return(
         <div className={styles.order_container}> 
-            <p>ordernummer #{Math.random()*1000000000000000000}</p>
+            <p>ordernummer #{Math.random()*10000000000000000}</p>
             <img src="./img/Group 5.png"></img>
             <h1>Din beställning är på väg!</h1>
             <h3>15 månader</h3>
             <Link to="/" >
-                <h2>RIP, Life!</h2>
+                <h2>ok! Home</h2>
             </Link>
         </div>
     )
