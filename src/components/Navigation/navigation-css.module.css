@@ -1,0 +1,20 @@
+.navigation_background{
+    background-size: cover;
+    background-color:#2F2926;
+    min-width: 365px;
+    min-height: 700px;
+    text-align: center;
+    
+}
+
+.links h1{
+    color: white;
+}
+
+h1:hover{
+    color: black;
+}
+
+.links{
+    margin-top: 11rem;
+}

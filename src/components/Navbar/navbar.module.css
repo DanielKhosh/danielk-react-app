@@ -1,0 +1,22 @@
+.img_nav{
+    max-width: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border-color: black;
+    margin: 10px 10px 10px;
+}
+.img_cart{
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 10px 10px 10px;
+
+}
+.nav_container{
+    min-width:365px;
+    min-height:110px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    background-size: cover;
+}

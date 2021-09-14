@@ -1,0 +1,14 @@
+.shop_container{
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column ;
+    justify-items: center;
+}
+.shop_container h1 {
+    color: white;
+    background-color: #2F2926;
+    border-radius: 90px;
+    min-height: 70px;
+}

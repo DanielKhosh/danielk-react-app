@@ -1,0 +1,19 @@
+.main_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.button_QTY_container{
+    display: flex;
+    flex-direction: row;
+    min-width: 100px;
+}
+.button_QTY_container input{
+    max-width: 30px;
+    min-height: 30px;
+}
+.remove_icon{
+    max-width: 50px;
+    max-height: 50px;
+}

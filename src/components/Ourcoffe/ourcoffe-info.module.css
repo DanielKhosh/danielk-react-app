@@ -1,0 +1,31 @@
+.main_continer{
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-align: center;
+    margin: 30px 10px 30px;
+}
+p{
+    margin: 5px 10px 5px;
+}
+h3{
+    margin: 5px 10px 5px;
+}
+.vd{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_vd{
+    max-width: 50%;
+}
+.bottom_img{
+    min-width: 365px;
+}

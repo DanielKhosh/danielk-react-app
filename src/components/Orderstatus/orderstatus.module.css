@@ -1,0 +1,32 @@
+.order_container{
+    background-color: #E5674E;
+    min-width: 365px;
+    max-width: 375px;
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.order_container p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.order_container h1 {
+    color: white;
+    max-width: 250px;
+}
+
+.order_container h2 {
+    margin-top: 100px;
+    color: gray;
+    background-color: white;
+    width: 160px;
+    border-radius: 90px;
+}
+
+.order_container h3 {
+    color: white;
+}
